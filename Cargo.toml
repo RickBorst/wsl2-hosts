@@ -1,0 +1,13 @@
+[package]
+name = "wsl2-hosts"
+version = "0.1.0"
+authors = ["Rick Borst <rick.w.borst@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.4.1"
+
+[target.'cfg(target_os="windows")'.build-dependencies]
+winres = "0.1.11"

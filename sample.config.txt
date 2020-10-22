@@ -1,0 +1,2 @@
+localhost
+wsl.local
